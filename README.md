@@ -50,3 +50,7 @@ Efficiency: Vectorized computations and automated interpolation ensure rapid ana
 Rigorous Spectral Scaling: Align recorded earthquake data with normative spectra for design-level comparisons.
 Multi-Event Averaging: Statistically robust SRSS results across historical earthquakes (e.g., 2001 Arequipa, 2010 Concepción).
 Transparent Workflow: Functions include error handling, dynamic axis scaling, and unit consistency checks.
+
+## License
+
+[MIT](./LICENSE)
