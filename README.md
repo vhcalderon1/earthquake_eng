@@ -2,6 +2,10 @@
 
 _A MATLAB-based repository for earthquake acceleration, drift, and spectral analysis_
 
+<P align = "center">
+   <img src="https://github.com/user-attachments/assets/e0c96352-ca6c-45eb-9a2f-35c962b3a829" width="500" height="350" />
+   <img src="https://github.com/user-attachments/assets/5f6f7826-b5b6-4e25-91b1-cc86e81df850" width="500" height="350" />
+
 ## References
 Calderon, V. H. (2021). “Feasibility of protecting with seismic isolation a limited-ductility-wall social housing.” (In Spanish) Pontifical Catholic University of Peru Digital Repository. Available at: https://tesis.pucp.edu.pe/items/033969e7-0b01-494f-ac01-6d2167bd67d4
 
