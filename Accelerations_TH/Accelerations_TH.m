@@ -43,7 +43,7 @@ figure_handle = figure('Units', 'centimeters', 'Position', [0 0 18 20],...
     'PaperPositionMode', 'auto');
 
 % Generate acceleration profiles
-level_labels = {'Surface'; 'Base'; '1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
+level_labels = {'Ground level'; 'Basement'; '1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
 num_levels = length(level_labels);
 
 hold on;

@@ -50,7 +50,7 @@ driftYData = [NaN; NaN; load(yDriftFile)] * 100; % Y-direction (%)
 driftXData = [NaN; NaN; load(xDriftFile)] * 100; % X-direction (%)
 
 %% ================== BUILDING HEIGHT CALCULATION ========================
-levelNames = {'Basement'; 'Ground'; '1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
+levelNames = {'Ground level';'1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
 baseElevation = 2.5;    % Ground level height (m)
 storyHeight = 5;        % Interstory height (m)
 
