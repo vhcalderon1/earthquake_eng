@@ -50,7 +50,7 @@ driftYData = [NaN; NaN; load(yDriftFile)] * 100; % Y-direction (%)
 driftXData = [NaN; NaN; load(xDriftFile)] * 100; % X-direction (%)
 
 %% ================== BUILDING HEIGHT CALCULATION ========================
-levelNames = {'Ground level';'1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
+levelNames = {'';'Ground level';'1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
 baseElevation = 2.5;    % Ground level height (m)
 storyHeight = 5;        % Interstory height (m)
 
@@ -97,10 +97,10 @@ grid on;
 ax.GridLineStyle = ':';
 ax.GridColor = [0.2 0.2 0.2];
 ax.GridAlpha = 0.3;
-box off;
+box on;
 
 % Legend configuration
-legend('Location', 'northeast', 'FontSize', 10, 'EdgeColor', 'none');
+legend('Location', 'best', 'FontSize', 10, 'Box', 'on');
 
 %% ===================== OUTPUT MANAGEMENT ==============================
 outputFile = fullfile(outputFolder, 'Building_Drift_Analysis');
