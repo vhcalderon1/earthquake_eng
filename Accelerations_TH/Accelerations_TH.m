@@ -43,7 +43,7 @@ figure_handle = figure('Units', 'centimeters', 'Position', [0 0 18 20],...
     'PaperPositionMode', 'auto');
 
 % Generate acceleration profiles
-level_labels = {'Ground level'; 'Basement'; '1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
+level_labels = {'Basement'; 'Ground level'; '1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'};
 num_levels = length(level_labels);
 
 hold on;
@@ -57,8 +57,8 @@ plot(y_acceleration, 1:num_levels, '-^k', 'LineWidth', 1.2,...
 ax = gca;
 set(ax, 'YTick', 1:num_levels, 'YTickLabel', level_labels,...
     'FontSize', 12, 'FontName', 'Arial', 'LineWidth', 1.5,...
-    'XGrid', 'on', 'YGrid', 'on', 'GridAlpha', 0.4);
-
+    'XGrid', 'on', 'YGrid', 'on', 'GridAlpha', 0.5);
+box on;
 axis([0 1.1 0.5 num_levels+0.5]);
 xlabel('Peak Acceleration (g)', 'FontSize', 14, 'FontWeight', 'bold');
 ylabel('Building Level', 'FontSize', 14, 'FontWeight', 'bold');

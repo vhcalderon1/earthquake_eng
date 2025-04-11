@@ -3,7 +3,7 @@
 _A MATLAB-based repository for earthquake acceleration, drift, and spectral analysis_
 
 <P align = "center">
-   <img src="https://github.com/user-attachments/assets/e0c96352-ca6c-45eb-9a2f-35c962b3a829" width="500" height="350" />
+   <img src="https://github.com/user-attachments/assets/f3b6f81e-9041-4a2f-afe8-60c8d8864914" width="500" height="350" />
    <img src="https://github.com/user-attachments/assets/5f6f7826-b5b6-4e25-91b1-cc86e81df850" width="500" height="350" />
 
 ## References
